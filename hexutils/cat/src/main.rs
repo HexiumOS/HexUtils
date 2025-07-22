@@ -12,13 +12,11 @@ fn process_file(file_path: &str) -> std::io::Result<()> {
 
 fn main() {
     let mut parser = Parser::from_env().unwrap();
-    let mut file_path: Option<String> = None;
 
     while let Some(arg) = parser.forward().unwrap() {
         match arg {
             Argument::Value(val) => {
-                process_file(&val); // Call your function
-                file_path = Some(val.to_string()); // Keep the variable
+                let _ = process_file(&val); // Call your function
             },
             Argument::Long(opt) => println!("Error, file path expected, got long option: --{}", opt),
             Argument::Short(c) => println!("Error, file path expected, got short option: -{}", c),
