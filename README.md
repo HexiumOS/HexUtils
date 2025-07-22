@@ -6,7 +6,7 @@
 
 - `cat`: Displays the contents of a file in the terminal.
 - `echo`: Outputs the provided string to the terminal.
-- `touch`: Creates an empty file with the specified name.
+- `mkfile`: Creates an empty file with the specified name.
 
 ## Why HexUtils?
 HexUtils offers minimal, fast, and portable replacements for some of the most frequently used Unix command-line tools, making it ideal for scripting, embedded environments, or learning purposes.

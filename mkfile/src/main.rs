@@ -7,14 +7,14 @@ fn main() {
     while let Some(arg) = parser.forward().unwrap() {
         match arg {
             Argument::Value(val) => {
-                touch(&val);
+                mkfile(&val);
             }
             _ => {}
         }
     }
 }
 
-fn touch(file_name: &str) {
+fn mkfile(file_name: &str) {
     File::create(file_name).expect("Unable to create file");
     println!("File '{}' created successfully.", file_name);
 }
