@@ -1,4 +1,4 @@
-use sap::{Parser, Argument};
+use sap::{Argument, Parser};
 use std::fs::File;
 use std::io::prelude::*;
 
@@ -16,11 +16,9 @@ fn main() {
     while let Some(arg) = parser.forward().unwrap() {
         match arg {
             Argument::Value(val) => {
-                let _ = process_file(&val); // Call your function
-            },
-            Argument::Long(opt) => println!("Error, file path expected, got long option: --{}", opt),
-            Argument::Short(c) => println!("Error, file path expected, got short option: -{}", c),
-            Argument::Stdio => println!("Error, file path expected, got stdin"),
+                let _ = process_file(&val);
+            }
+            _ => {}
         }
     }
 }

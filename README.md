@@ -1,15 +1,14 @@
-# 🔧 HexUtils
+# HexUtils
 
-HexUtils is a collection of command-line tools designed to be used with the **Hexium Operating System**.
+**HexUtils** is a lightweight, cross-platform collection of command-line utilities designed to provide simple alternatives to common [coreutils] tools.
 
-## 📦 Features
+## Included Commands
 
-- `cat`: Prints a file as a string to the terminal.
-- `echo`: Prints the string inserted into it.
-- `mkfile`: Makes an empty file with a name that is specified.
+- `cat`: Displays the contents of a file in the terminal.
+- `echo`: Outputs the provided string to the terminal.
+- `touch`: Creates an empty file with the specified name.
 
-## 🛠 Installation
+## Why HexUtils?
+HexUtils offers minimal, fast, and portable replacements for some of the most frequently used Unix command-line tools, making it ideal for scripting, embedded environments, or learning purposes.
 
-> [!IMPORTANT]
-> Right now there is no easy way to install this program.
-> The only way is to enter every single folder and ```cargo build``` every single program.
+[coreutils]: https://www.gnu.org/savannah-checkouts/gnu/coreutils/coreutils.html

@@ -1,4 +1,5 @@
-> [!IMPORTANT]
-> This utility package is an attempt to port a part/most/all of [coreutils](https://www.gnu.org/savannah-checkouts/gnu/coreutils/coreutils.html) and also create custom programs not a part of the [coreutils](https://www.gnu.org/savannah-checkouts/gnu/coreutils/coreutils.html) ultility collection.
-> The porting is achieved by a ground-up rewrite in the Rust programming language.
-> Program names are reused to maintain familiarity and ease of migration from GNU/Linux distributions.
+This utility package aims to provide a partial or complete port of the [coreutils suite](https://www.gnu.org/savannah-checkouts/gnu/coreutils/coreutils.html), alongside custom programs not included in the original collection.
+
+The port is implemented as a ground-up rewrite using the Rust programming language, prioritizing safety and performance.
+
+Program names have been retained to ensure familiarity and facilitate seamless migration from GNU/Linux environments.
