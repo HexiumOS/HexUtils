@@ -4,9 +4,9 @@ HexUtils is a collection of command-line tools designed to be used with the **He
 
 ## 📦 Features
 
-- `cat`: 
-- `echo`:
-- `ls`:
+- `cat`: Prints a file as a string to the terminal.
+- `echo`: Prints the string inserted into it.
+- `mkfile`: Makes an empty file with a name that is specified.
 
 ## 🛠 Installation
 
