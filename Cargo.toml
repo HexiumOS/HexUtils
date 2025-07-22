@@ -1,3 +1,3 @@
 [workspace]
-members = ["cat", "echo", "mkdir", "mkfile"]
+members = ["cat", "echo", "mkdir", "mkfile", "rm"]
 resolver = "3"
