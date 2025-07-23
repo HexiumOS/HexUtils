@@ -8,6 +8,7 @@
 - `echo`: Outputs the provided string to the terminal.
 - `mkfile`: Creates an empty file with the specified name.
 - `mkdir`: Crates an empty directory with the specified name.
+- `rm`: Removes a file/directory with the specified name.
 - `ls`: !!CURRENTLY IN NOT FINISHED!! Prints the contents of the current working directory to terminal.
 
 ## Why HexUtils?
