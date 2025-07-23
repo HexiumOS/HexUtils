@@ -9,6 +9,7 @@
 - `mkfile`: Creates an empty file with the specified name.
 - `mkdir`: Crates an empty directory with the specified name.
 - `rm`: Removes a file/directory with the specified name.
+- `ls`: !!CURRENTLY IN NOT FINISHED!! Prints the contents of the current working directory to terminal.
 
 ## Why HexUtils?
 HexUtils offers minimal, fast, and portable replacements for some of the most frequently used Unix command-line tools, making it ideal for scripting, embedded environments, or learning purposes.
