@@ -2,7 +2,7 @@ use std::env;
 use std::fs;
 
 fn main() {
-        let args: Vec<String> = env::args().collect();
+    let args: Vec<String> = env::args().collect();
     if args[1].is_empty() {
         println!("No path provided.");
         return;
